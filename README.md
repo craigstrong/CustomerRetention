@@ -12,7 +12,19 @@ In the end, I was able to get all of the usage, pass, and spend data on to one l
 
 ### Notebooks
 
-The notebooks are still a WIP. For now, Customer_Retention_Model_2015 and Pipeline are where the majority of the modeling is taking place. I still need to organize the notebooks and clean up the cells!
+The notebooks are built in a numbered order: <br>
+1_Customer_Retention_EDA.ipynb<br>
+2-Pipeline_of_Classification_Models.ipynb<br>
+3a-Logistic_Regression.ipynb<br>
+3b-XGBoost_Classification.ipynb<br>
+3c-Random_Forest_Classification.ipynb<br>
+3d-NeuralNet_WIP.ipynb<br>
+4-Clustering.ipynb<br>
+
+My SQL queries are included in the first notebook showing all of the logic against the data. I started my modeling by running a Pipeline against 8 different Classifiers to see what scored best. I then built out Notebooks for 3 Classifiers (Logistic Regression, XGBoost, and Random Forest). I want to build something out for Neural Net but it is an aspiration.
+
+Finally, I have some Unsupervised Learning via k-Means in the Clustering Notebook. It has some insights but I am still finalizing my clustering between k-Means and Tableau analysis. 
+
 
 ### Prerequisites
 
